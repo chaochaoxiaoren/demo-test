@@ -13,6 +13,6 @@
     "draft": false
   },
   "npm": {
-    "publish": true
+    "publish": false
   }
 }
