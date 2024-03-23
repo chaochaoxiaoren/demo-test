@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "cz"
+    "commit": "cz",
+    "release": "release-it"
   },
   "config": {
     "commitizen": {
@@ -15,7 +16,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@release-it/conventional-changelog": "^8.0.1",
     "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "release-it": "^17.1.1"
   }
 }
